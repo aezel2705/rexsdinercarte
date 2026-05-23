@@ -14,46 +14,45 @@ const DATA = {
       nom: "Menus & Formules",
       icone: "🦖",
       produits: [
-        { id: "menu-1", nom: "Rexpress", description: "Churros salé + Café", prix: 50, image: "images/rexpressmenu.png" },
-        { id: "menu-2", nom: "Bronto (végé)", description: "Rings + Ice Tea", prix: 65, image: "images/brontomenu.png" },
-        { id: "menu-3", nom: "Breakfast", description: "Petit-déjeuner + Café + Pancakes", prix: 70, image: "images/breakfastmenu.png" },
-        { id: "menu-4", nom: "Raptor", description: "Steak frites + Pumpkin Spice Latte + Soda Cola", prix: 90, image: "images/raptormenu.png" },
-        { id: "menu-5", nom: "Rex", description: "Burger + Pilons de poulet + Milkshake pomme caramel + Ice Tea", prix: 130, image: "images/rexmenu.png" }
+        { id: "menu-1", nom: "Bronto (végé)", description: "Rings + Ice Tea", prix: 70, image: "images/brontomenu.png" },
+        { id: "menu-2", nom: "Krono", description: "Petit-déjeuner + Café + Pancakes", prix: 75, image: "images/breakfastmenu.png" },
+        { id: "menu-3", nom: "Raptor", description: "Steak frites + Pumpkin Spice Latte", prix: 95, image: "images/raptormenu.png" },
+        { id: "menu-4", nom: "Rex", description: "Burger + Pilons de poulet + Cheesecake Myrtilles + Ice Tea", prix: 150, image: "images/rexmenu.png" }
+        { id: "menu-5", nom: "Spino", description: "Churros salé + Bucket de poisson + Cinnamon rolls + Milkshake mangue + Soda cola + Café", prix: 1750, image: "images/rexpressmenu.png" },
       ]
     },
     {
       nom: "Plats",
       icone: "🍖",
       produits: [
-        { id: "plat-1", nom: "Breakfast", description: "Petit-déjeuner complet", prix: 30, image: "images/breakfast.png" },
-        { id: "plat-2", nom: "Pilons de poulet", description: "6 pièces marinées", prix: 30, image: "images/pilonsdepoulet.png" },
-        { id: "plat-3", nom: "Bucket de poisson", description: "Poisson frit croustillant", prix: 25, image: "images/bucketdepoisson.png" },
-        { id: "plat-4", nom: "Rings", description: "Anneaux frits", prix: 35, image: "images/rings.png" },
-        { id: "plat-5", nom: "Churros salé", description: "Churros version salée", prix: 35, image: "images/churrossale.png" },
-        { id: "plat-6", nom: "Rex Burger", description: "Le burger signature", prix: 45, image: "images/rexburger.png" },
-        { id: "plat-7", nom: "Steak frites", description: "Steak haché + frites maison", prix: 45, image: "images/steakfrites.png" }
+        { id: "plat-1", nom: "Breakfast", description: "Petit-déjeuner complet", prix: 35, image: "images/breakfast.png" },
+        { id: "plat-2", nom: "Pilons de poulet", description: "6 pièces marinées", prix: 35, image: "images/pilonsdepoulet.png" },
+        { id: "plat-3", nom: "Bucket de poisson", description: "Poisson frit croustillant", prix: 30, image: "images/bucketdepoisson.png" },
+        { id: "plat-4", nom: "Rings", description: "Anneaux frits", prix: 40, image: "images/rings.png" },
+        { id: "plat-5", nom: "Churros salé", description: "Churros version salée", prix: 45, image: "images/churrossale.png" },
+        { id: "plat-6", nom: "Rex Burger", description: "Le burger signature", prix: 60, image: "images/rexburger.png" },
+        { id: "plat-7", nom: "Steak frites", description: "Steak haché + frites maison", prix: 60, image: "images/steakfrites.png" }
       ]
     },
     {
       nom: "Desserts",
       icone: "🍩",
       produits: [
-        { id: "dessert-1", nom: "Donut glacé", description: "Glaçage vanille ou chocolat", prix: 20, image: "images/donutglace.png" },
-        { id: "dessert-2", nom: "Pancakes", description: "Stack de 3 pancakes", prix: 20, image: "images/pancakes.png" },
-        { id: "dessert-3", nom: "Cheesecake myrtilles", description: "Coulis de myrtilles maison", prix: 25, image: "images/cheesecakemyrtilles.png" },
-        { id: "dessert-4", nom: "Cinnamon Rolls", description: "Roulés à la cannelle", prix: 30, image: "images/cinnamonrolls.png" }
+        { id: "dessert-1", nom: "Donut glacé", description: "Glaçage vanille ou chocolat", prix: 25, image: "images/donutglace.png" },
+        { id: "dessert-2", nom: "Pancakes", description: "Stack de 3 pancakes", prix: 30, image: "images/pancakes.png" },
+        { id: "dessert-3", nom: "Cheesecake myrtilles", description: "Coulis de myrtilles maison", prix: 35, image: "images/cheesecakemyrtilles.png" },
+        { id: "dessert-4", nom: "Cinnamon Rolls", description: "Roulés à la cannelle", prix: 40, image: "images/cinnamonrolls.png" }
       ]
     },
     {
       nom: "Boissons",
       icone: "🥤",
       produits: [
-        { id: "boisson-1", nom: "Soda Cola", description: "33cl", prix: 12, image: "images/sodacola.png" },
-        { id: "boisson-2", nom: "Café", description: "Café filtre américain", prix: 15, image: "images/cafe.png" },
-        { id: "boisson-3", nom: "Milkshake mangue", description: "Fruits frais mixés", prix: 25, image: "images/milkshakemangue.png" },
-        { id: "boisson-4", nom: "Milkshake pomme caramel", description: "Pomme fraîche + caramel beurre salé", prix: 25, image: "images/milkshakepommecaramel.png" },
-        { id: "boisson-5", nom: "Ice Tea", description: "Pêche ou citron", prix: 30, image: "images/icetea.png" },
-        { id: "boisson-6", nom: "Pumpkin Spice Latte", description: "Latte épicé à la citrouille", prix: 30, image: "images/pumpkinspicelatte.png" }
+        { id: "boisson-1", nom: "Soda Cola", description: "33cl", prix: 15, image: "images/sodacola.png" },
+        { id: "boisson-2", nom: "Café", description: "Café filtre américain", prix: 20, image: "images/cafe.png" },
+        { id: "boisson-3", nom: "Milkshake mangue", description: "Fruits frais mixés", prix: 30, image: "images/milkshakemangue.png" },
+        { id: "boisson-4", nom: "Ice Tea", description: "Pêche ou citron", prix: 35, image: "images/icetea.png" },
+        { id: "boisson-5", nom: "Pumpkin Spice Latte", description: "Latte épicé à la citrouille", prix: 40, image: "images/pumpkinspicelatte.png" }
       ]
     }
   ]
