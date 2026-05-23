@@ -17,8 +17,8 @@ const DATA = {
         { id: "menu-1", nom: "Bronto (végé)", description: "Rings + Ice Tea", prix: 70, image: "images/brontomenu.png" },
         { id: "menu-2", nom: "Krono", description: "Petit-déjeuner + Café + Pancakes", prix: 75, image: "images/breakfastmenu.png" },
         { id: "menu-3", nom: "Raptor", description: "Steak frites + Pumpkin Spice Latte", prix: 95, image: "images/raptormenu.png" },
-        { id: "menu-4", nom: "Rex", description: "Burger + Pilons de poulet + Cheesecake Myrtilles + Ice Tea", prix: 150, image: "images/rexmenu.png" }
-        { id: "menu-5", nom: "Spino", description: "Churros salé + Bucket de poisson + Cinnamon rolls + Milkshake mangue + Soda cola + Café", prix: 1750, image: "images/rexpressmenu.png" },
+        { id: "menu-4", nom: "Rex", description: "Burger + Pilons de poulet + Cheesecake Myrtilles + Ice Tea", prix: 150, image: "images/rexmenu.png" },
+        { id: "menu-5", nom: "Spino", description: "Churros salé + Bucket de poisson + Cinnamon rolls + Milkshake mangue + Soda cola + Café", prix: 1750, image: "images/rexpressmenu.png" }
       ]
     },
     {
