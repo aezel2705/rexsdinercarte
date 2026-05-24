@@ -53,6 +53,7 @@ const DATA = {
         { id: "boisson-3", nom: "Milkshake mangue", description: "Fruits frais mixés", prix: 30, image: "images/milkshakemangue.png" },
         { id: "boisson-4", nom: "Ice Tea", description: "Pêche ou citron", prix: 35, image: "images/icetea.png" },
         { id: "boisson-5", nom: "Pumpkin Spice Latte", description: "Latte épicé à la citrouille", prix: 40, image: "images/pumpkinspicelatte.png" }
+        { id: "boisson-6", nom: "Bière", description: "Pression bien fraîche", prix: 40, image: "images/pintebiere.png" },
       ]
     }
   ]
