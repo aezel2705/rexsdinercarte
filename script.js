@@ -156,6 +156,16 @@ function retirerDuPanier(produitId) {
     mettreAJourPanier();
 }
 
+function changerQuantitePanier(input) {
+    var id = input.getAttribute('data-id');
+    var qte = parseInt(input.value) || 1;
+    var item = panier.find(function(i) { return i.id === id; });
+    if (item) {
+        item.quantite = Math.max(1, Math.min(99, qte));
+        mettreAJourPanier();
+    }
+}
+
 function viderPanier() {
     panier = [];
     mettreAJourPanier();
@@ -196,7 +206,7 @@ function mettreAJourPanier() {
                     '</div>' +
                     '<div class="panier-item-actions">' +
                     '<button class="btn-qte" onclick="retirerDuPanier(\'' + item.id + '\')">−</button>' +
-                    '<span class="panier-item-qte">' + item.quantite + '</span>' +
+                    '<input type="number" class="input-qte-panier" value="' + item.quantite + '" min="1" max="99" data-id="' + item.id + '" onchange="changerQuantitePanier(this)">' +
                     '<button class="btn-qte" onclick="ajouterAuPanier(\'' + item.id + '\')">+</button>' +
                     '</div>' +
                     '</div>';
