@@ -15,10 +15,10 @@ const DATA = {
       icone: "🦖",
       produits: [
         { id: "menu-1", nom: "Bronto (végé)", description: "Rings + Soda cola + Donut Glacé", prix: 70, image: "images/brontomenu.png" },
-        { id: "menu-2", nom: "Krono", description: "Petit-déjeuner + Café + Pancakes", prix: 75, image: "images/breakfastmenu.png" },
+        { id: "menu-2", nom: "Krono", description: "Breakfast + Café + Pancakes", prix: 75, image: "images/breakfastmenu.png" },
         { id: "menu-3", nom: "Raptor", description: "Steak frites + Pumpkin Spice Latte", prix: 95, image: "images/raptormenu.png" },
         { id: "menu-4", nom: "Rex", description: "Burger + Pilons de poulet + Cheesecake Myrtilles + Ice Tea", prix: 150, image: "images/rexmenu.png" },
-        { id: "menu-5", nom: "Spino", description: "Churros salé + Bucket de poisson + Cinnamon rolls + Milkshake mangue + Soda cola + Café", prix: 175, image: "images/rexpressmenu.png" }
+        { id: "menu-5", nom: "Spino", description: "Churros salé + Bucket de poisson + Cheesecake Myrtilles + Milkshake mangue + Soda cola + Café", prix: 175, image: "images/rexpressmenu.png" }
       ]
     },
     {
@@ -31,7 +31,8 @@ const DATA = {
         { id: "plat-4", nom: "Rings", description: "Anneaux frits", prix: 40, image: "images/rings.png" },
         { id: "plat-5", nom: "Churros salé", description: "Churros version salée", prix: 45, image: "images/churrossale.png" },
         { id: "plat-6", nom: "Rex Burger", description: "Le burger signature", prix: 60, image: "images/rexburger.png" },
-        { id: "plat-7", nom: "Steak frites", description: "Steak haché + frites maison", prix: 60, image: "images/steakfrites.png" }
+        { id: "plat-7", nom: "Steak frites", description: "Steak haché + frites maison", prix: 60, image: "images/steakfrites.png" },
+        { id: "plat-8", nom: "Cornet de frites", description: "Croustillantes à souhait", prix: 20, image: "images/frites.png" }
       ]
     },
     {
