@@ -41,7 +41,7 @@ const DATA = {
         { id: "dessert-1", nom: "Donut glacé", description: "Glaçage vanille ou chocolat", prix: 25, image: "images/donutglace.png" },
         { id: "dessert-2", nom: "Pancakes", description: "Stack de 3 pancakes", prix: 30, image: "images/pancakes.png" },
         { id: "dessert-3", nom: "Cheesecake myrtilles", description: "Coulis de myrtilles maison", prix: 35, image: "images/cheesecakemyrtilles.png" },
-        { id: "dessert-4", nom: "Cinnamon Rolls", description: "Roulés à la cannelle", prix: 40, image: "images/cinnamonrolls.png" }
+        { id: "dessert-4", nom: "Sundae Caramel", description: "Glace vanille et coulis caramel", prix: 30, image: "images/sundaecaramel.png" }
       ]
     },
     {
@@ -53,7 +53,8 @@ const DATA = {
         { id: "boisson-3", nom: "Milkshake mangue", description: "Fruits frais mixés", prix: 30, image: "images/milkshakemangue.png" },
         { id: "boisson-4", nom: "Ice Tea", description: "Pêche ou citron", prix: 35, image: "images/icetea.png" },
         { id: "boisson-5", nom: "Pumpkin Spice Latte", description: "Latte épicé à la citrouille", prix: 40, image: "images/pumpkinspicelatte.png" },
-        { id: "boisson-6", nom: "Bière", description: "Pression bien fraîche", prix: 40, image: "images/pintebiere.png" }
+        { id: "boisson-6", nom: "Soda Pomme", description: "Saveur pomme, allégé en sucres", prix: 20, image: "images/sodapomme.png" },
+        { id: "boisson-7", nom: "Bière", description: "Pression bien fraîche", prix: 40, image: "images/pintebiere.png" }
       ]
     }
   ]
